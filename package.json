@@ -1,0 +1,39 @@
+{
+  "name": "cookies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "NODE_ENV=production webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amibug/cookie.git"
+  },
+  "keywords": [
+    "javascript",
+    "cookie"
+  ],
+  "author": "amibug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amibug/cookie/issues"
+  },
+  "homepage": "https://github.com/amibug/cookie#readme",
+  "devDependencies": {
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-commonjs": "^1.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.1.0",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-safari-launcher": "^1.0.0",
+    "webpack": "^1.13.2"
+  }
+}
