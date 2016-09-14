@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
+    "f2etest": "karma start --single-run --browsers f2etest-chrome,f2etest-firefox,f2etest-ie9,f2etest-ie10,f2etest-ie11",
     "build": "NODE_ENV=production webpack --config ./webpack.config.js"
   },
   "repository": {
@@ -34,6 +35,7 @@
     "karma-opera-launcher": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-safari-launcher": "^1.0.0",
+    "karma-webdriver-launcher": "^1.0.4",
     "webpack": "^1.13.2"
   }
 }
