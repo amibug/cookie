@@ -23,7 +23,7 @@ function createWebdriver(extraConfig) {
 			'host': 'f2etest.alibaba-inc.com',
 			'port': 4444
 		},
-		// f2etest获取账号和apiKey
+		// f2etest获取账号和apiey
 		'f2etest.userid': '',
 		'f2etest.apiKey': '',
 		'pseudoActivityInterval': 30000
@@ -32,7 +32,6 @@ function createWebdriver(extraConfig) {
 
 module.exports = function (config) {
 	config.set({
-
 		basePath: './',
 
 		// Browser support Same as Chai.js: IE 9+, Chrome 7+, FireFox 4+, Safari 5+ except should style that is currently not compatible with IE 9.
